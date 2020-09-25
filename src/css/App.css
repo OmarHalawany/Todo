@@ -1,3 +1,7 @@
+body {
+  background-color: #133b5c !important;
+}
+
 .main {
   width: 50%;
   display: -webkit-box;
@@ -5,9 +9,31 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: auto;
   margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #1e5f74;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.title {
+  color: #1d2d50;
+  font-size: 3.75rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .main {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .main {
+    width: 70%;
+  }
 }
 /*# sourceMappingURL=App.css.map */

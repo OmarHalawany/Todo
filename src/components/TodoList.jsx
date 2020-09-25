@@ -3,12 +3,12 @@ import "../css/TodoList.css";
 
 class TodoList extends Component {
   getCheckStyle = (todo) => {
-    return todo.completed ? { color: "green" } : { color: "#80808080" };
+    return todo.completed ? { color: "green" } : { color: "#fcdab7" };
   };
   getTextStyle = (todo) => {
     return todo.completed
       ? { color: "#80808080", textDecoration: "line-through" }
-      : { color: "#0c0c0c" };
+      : { color: "#fcdab7" };
   };
   render() {
     return (

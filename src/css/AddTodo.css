@@ -10,13 +10,18 @@
 }
 
 .form input {
+  border-radius: 5px;
+  padding-left: 3px;
   width: 80%;
+  height: 100%;
   border: none;
   border-bottom: 2px solid #80808080;
   outline: none;
 }
 
 .form button {
+  margin-left: 5px;
+  height: 100%;
   width: 20%;
 }
 /*# sourceMappingURL=AddTodo.css.map */
