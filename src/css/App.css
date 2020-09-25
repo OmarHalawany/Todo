@@ -15,8 +15,7 @@ body {
   padding: 50px;
   margin-top: 50px;
   margin-bottom: 0;
-  padding-top: 50px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   background-color: #1e5f74;
   border-radius: 5px;
 }
@@ -29,12 +28,16 @@ body {
 @media only screen and (max-width: 900px) {
   .main {
     width: 60%;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
 @media only screen and (max-width: 750px) {
   .main {
     width: 90%;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 /*# sourceMappingURL=App.css.map */
