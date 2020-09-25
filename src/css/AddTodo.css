@@ -1,0 +1,22 @@
+.form {
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 50px;
+}
+
+.form input {
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid #80808080;
+  outline: none;
+}
+
+.form button {
+  width: 20%;
+}
+/*# sourceMappingURL=AddTodo.css.map */

@@ -1,0 +1,50 @@
+.todo-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #80808080;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.todo-item:last-child {
+  border: none;
+}
+
+.control-todo {
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.todo-text {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.fa-check {
+  color: #80808080;
+}
+
+.fa-check:hover {
+  cursor: pointer;
+  color: green !important;
+}
+
+.fa-trash {
+  color: #80808080;
+}
+
+.fa-trash:hover {
+  cursor: pointer;
+  color: red;
+}
+/*# sourceMappingURL=TodoList.css.map */
