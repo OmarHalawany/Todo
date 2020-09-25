@@ -39,7 +39,8 @@ class App extends Component {
     id++;
     let newTodo = { id: id, content: newTodoContent, completed: false };
     todos.unshift(newTodo);
-    this.setState({ todos });
+    console.log(todos);
+    this.setState({ id, todos });
   };
 
   render() {

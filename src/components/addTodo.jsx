@@ -9,7 +9,11 @@ class AddTodo extends Component {
     e.preventDefault();
     // this.props.handleAddTodo(this.state.newTodo); (first solution)
     //second solution better cuz its easy to reset input>>
+
     let inpt = document.getElementById("newTodo");
+    if (inpt.value === null || inpt.value.match(/^ *$/) !== null) {
+      return;
+    }
     let newTodo = inpt.value;
     inpt.value = "";
     this.props.handleAddTodo(newTodo);

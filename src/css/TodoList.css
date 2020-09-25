@@ -13,6 +13,7 @@
 
 .todo-item:last-child {
   border: none;
+  margin-bottom: 0;
 }
 
 .control-todo {

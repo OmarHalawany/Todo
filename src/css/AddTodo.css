@@ -24,4 +24,28 @@
   height: 100%;
   width: 20%;
 }
+
+.form input::-webkit-input-placeholder {
+  color: grey;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.form input:-ms-input-placeholder {
+  color: grey;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.form input::-ms-input-placeholder {
+  color: grey;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.form input::placeholder {
+  color: grey;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=AddTodo.css.map */
